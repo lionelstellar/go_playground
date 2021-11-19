@@ -11,6 +11,24 @@ func test_variable() {
 	variable.AnonymousVar()
 }
 
+func test_string() {
+	utils.PackageStart("test string")
+	variable.StringVar()
+}
+
+func test_char() {
+	utils.PackageStart("test char")
+	variable.CharVar()
+}
+
+func test_pointer() {
+	utils.PackageStart("test pointer")
+	variable.PointerVar()
+}
+
 func main() {
-	test_variable()
+	// test_variable()
+	// test_string()
+	// test_char()
+	test_pointer()
 }
