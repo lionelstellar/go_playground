@@ -14,7 +14,7 @@ func PointerVar() {
 	var c1 byte = '\x61'
 	fmt.Printf("ptr of c1 is %p\n", &c1)
 
-	s2 := "yingmin"
+	s2 := "yinmin"
 	fmt.Printf("value of s2 addr is %s\n", *(&s2))
 
 	s3 := new(string)

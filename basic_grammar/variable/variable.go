@@ -18,10 +18,10 @@ import "go_playground/basic_grammar/utils"
 
 // 集中定义变量
 var (
-	a int         // 整形
-	b float64     // 64位浮点数
-	c [3]string   // 字符串数组
-	d func() bool // 函数指针
+	// a int         // 整形
+	// b float64     // 64位浮点数
+	c [3]string // 字符串数组
+	// d func() bool // 函数指针
 	e struct {
 		x int
 		y float32
