@@ -1,6 +1,6 @@
 package variable
 
-// 字符串
+// strings
 
 import "fmt"
 

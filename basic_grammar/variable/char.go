@@ -1,6 +1,6 @@
 package variable
 
-// 字符: uint8(byte)和uint32(rune)
+// character: uint8(byte)和uint32(rune)
 
 import (
 	"fmt"

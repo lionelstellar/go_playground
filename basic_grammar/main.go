@@ -1,6 +1,7 @@
 package main
 
 import (
+	"go_playground/basic_grammar/container"
 	"go_playground/basic_grammar/utils"
 	"go_playground/basic_grammar/variable"
 )
@@ -26,9 +27,15 @@ func test_pointer() {
 	variable.PointerVar()
 }
 
+func test_array() {
+	utils.PackageStart("test array")
+	container.ArrayVars()
+}
+
 func main() {
 	// test_variable()
 	// test_string()
 	// test_char()
-	test_pointer()
+	// test_pointer()
+	test_array()
 }
