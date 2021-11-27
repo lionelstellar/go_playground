@@ -32,10 +32,22 @@ func test_array() {
 	container.ArrayVars()
 }
 
+func test_map() {
+	utils.PackageStart("test map")
+	container.MapVars()
+}
+
+func test_list() {
+	utils.PackageStart("test list")
+	container.ListVars()
+}
+
 func main() {
 	// test_variable()
 	// test_string()
 	// test_char()
 	// test_pointer()
-	test_array()
+	// test_array()
+	// test_map()
+	test_list()
 }

@@ -50,5 +50,10 @@ func ArrayVars() {
 	fmt.Println(d)
 	fmt.Println("capacity of d is", cap(d))
 
+	// delete from slice
+	e := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	e = append(e[:4], e[6:]...)
+	fmt.Println("\ndelete 5 and 6 from array e:", e)
+
 	utils.FuncEnd("Print array vars")
 }
